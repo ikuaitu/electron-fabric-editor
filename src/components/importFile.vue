@@ -42,7 +42,7 @@
 </template>
 
 <script name="ImportFile" setup>
-import { Utils } from '@/lib/core'
+import { Utils } from 'kuaitu'
 const { getImgStr, selectFiles } = Utils
 
 import useSelect from '@/hooks/select'

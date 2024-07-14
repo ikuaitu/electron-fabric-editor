@@ -38,6 +38,7 @@
     "fontfaceobserver": "^2.1.0",
     "hotkeys-js": "^3.13.7",
     "jsbarcode": "^3.11.6",
+    "kuaitu": "^0.0.1",
     "lodash-es": "^4.17.21",
     "number-precision": "^1.6.0",
     "qr-code-styling": "1.6.0-rc.1",
