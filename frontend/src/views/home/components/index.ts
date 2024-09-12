@@ -1,0 +1,7 @@
+export { default as Add } from './Add.vue'
+export { default as Template } from './Template.vue'
+export { default as Text } from './Text.vue'
+export { default as Image } from './Image.vue'
+export { default as Mine } from './Mine/index.vue'
+export { default as Element } from './Element.vue'
+export { default as Ai } from './Ai.vue'

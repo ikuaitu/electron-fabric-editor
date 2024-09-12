@@ -1,0 +1,96 @@
+2024-09-12 15:46:50,618 ERROR 7972 nodejs.unhandledRejectionError: [ee-core] load file: E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js, error: Cannot find module 'lodash'
+Require stack:
+- E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\core\lib\utils\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\main\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\index.js
+- E:\github\electron-fabric-editor\main.js
+Require stack:
+- E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\core\lib\utils\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\main\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\index.js
+- E:\github\electron-fabric-editor\main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1152:15)
+    at s._resolveFilename (node:electron/js2c/browser_init:2:120829)
+    at Module._load (node:internal/modules/cjs/loader:993:27)
+    at c._load (node:electron/js2c/node_init:2:17025)
+    at Module.require (node:internal/modules/cjs/loader:1240:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1373:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+    at Module.load (node:internal/modules/cjs/loader:1215:32)
+code: "MODULE_NOT_FOUND"
+requireStack: ["E:\\github\\electron-fabric-editor\\electron\\addon\\chromeExtension\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\core\\lib\\utils\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\main\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\index.js","E:\\github\\electron-fabric-editor\\main.js"]
+name: "unhandledRejectionError"
+pid: 7972
+hostname: USER-20240807NE
+
+2024-09-12 15:47:50,426 ERROR 5192 nodejs.unhandledRejectionError: [ee-core] load file: E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js, error: Cannot find module 'lodash'
+Require stack:
+- E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\core\lib\utils\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\main\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\index.js
+- E:\github\electron-fabric-editor\main.js
+Require stack:
+- E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\core\lib\utils\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\main\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\index.js
+- E:\github\electron-fabric-editor\main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1152:15)
+    at s._resolveFilename (node:electron/js2c/browser_init:2:120829)
+    at Module._load (node:internal/modules/cjs/loader:993:27)
+    at c._load (node:electron/js2c/node_init:2:17025)
+    at Module.require (node:internal/modules/cjs/loader:1240:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1373:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+    at Module.load (node:internal/modules/cjs/loader:1215:32)
+code: "MODULE_NOT_FOUND"
+requireStack: ["E:\\github\\electron-fabric-editor\\electron\\addon\\chromeExtension\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\core\\lib\\utils\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\main\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\index.js","E:\\github\\electron-fabric-editor\\main.js"]
+name: "unhandledRejectionError"
+pid: 5192
+hostname: USER-20240807NE
+
+2024-09-12 15:59:48,114 ERROR 8744 nodejs.unhandledRejectionError: [ee-core] load file: E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js, error: Cannot find module 'lodash'
+Require stack:
+- E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\core\lib\utils\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\main\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\index.js
+- E:\github\electron-fabric-editor\main.js
+Require stack:
+- E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\core\lib\utils\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\main\index.js
+- E:\github\electron-fabric-editor\node_modules\.pnpm\ee-core@2.10.2\node_modules\ee-core\index.js
+- E:\github\electron-fabric-editor\main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1152:15)
+    at s._resolveFilename (node:electron/js2c/browser_init:2:120829)
+    at Module._load (node:internal/modules/cjs/loader:993:27)
+    at c._load (node:electron/js2c/node_init:2:17025)
+    at Module.require (node:internal/modules/cjs/loader:1240:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\github\electron-fabric-editor\electron\addon\chromeExtension\index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1373:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1432:10)
+    at Module.load (node:internal/modules/cjs/loader:1215:32)
+code: "MODULE_NOT_FOUND"
+requireStack: ["E:\\github\\electron-fabric-editor\\electron\\addon\\chromeExtension\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\core\\lib\\utils\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\main\\index.js","E:\\github\\electron-fabric-editor\\node_modules\\.pnpm\\ee-core@2.10.2\\node_modules\\ee-core\\index.js","E:\\github\\electron-fabric-editor\\main.js"]
+name: "unhandledRejectionError"
+pid: 8744
+hostname: USER-20240807NE
+
+2024-09-12 16:16:03,058 ERROR 8180 [ee-core] Please check the http://localhost:8080 !
+2024-09-12 16:32:39,645 ERROR 11888 [ee-core] Please check the http://localhost:8080 !
+2024-09-12 16:35:58,468 INFO 12068 [ee-core] Env: local, Type: spa
+2024-09-12 16:35:58,472 INFO 12068 [ee-core] App running at: http://localhost:8080
+2024-09-12 16:36:00,099 ERROR 12068 [ee-core] Please check the http://localhost:8080 !
+2024-09-12 16:36:33,985 INFO 10076 [ee-core] Env: local, Type: spa
+2024-09-12 16:36:33,987 INFO 10076 [ee-core] App running at: http://localhost:8080
+2024-09-12 16:54:44,198 INFO 11812 [ee-core] Env: local, Type: spa
+2024-09-12 16:54:44,228 INFO 11812 [ee-core] App running at: http://localhost:8080
