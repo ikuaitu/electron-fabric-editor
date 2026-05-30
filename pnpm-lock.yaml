@@ -10,8 +10,8 @@ catalogs:
       specifier: ^1.13.2
       version: 1.13.2
     color-gradient-picker-vue3:
-      specifier: ^3.1.7
-      version: 3.1.7
+      specifier: latest
+      version: 3.2.0
     typescript:
       specifier: ^5.9.3
       version: 5.9.3
@@ -167,7 +167,7 @@ importers:
         version: 1.13.2
       color-gradient-picker-vue3:
         specifier: 'catalog:'
-        version: 3.1.7(vue@3.5.26(typescript@5.9.3))
+        version: 3.2.0(vue@3.5.26(typescript@5.9.3))
       dayjs:
         specifier: ^1.11.7
         version: 1.11.19
@@ -2388,10 +2388,6 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  base64-arraybuffer@1.0.2:
-    resolution: {integrity: sha512-I3yl4r9QB5ZRY3XuJVEPfc2XhZO6YweFPI+UovAzn+8/hb3oJ6lnysaFcjVpkCPfVWFUDvoZ8kmVDP7WyRtYtQ==}
-    engines: {node: '>= 0.6.0'}
-
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
@@ -2687,8 +2683,8 @@ packages:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
 
-  color-gradient-picker-vue3@3.1.7:
-    resolution: {integrity: sha512-oak6poQNJZXTivneE+OwLJYisY4JpKV62xLFLBL04XyKIJg8nRbMJAy5VIiATwFNnZZwwCMftzuh2FCDDJu9Tg==}
+  color-gradient-picker-vue3@3.2.0:
+    resolution: {integrity: sha512-iOt6SUbX2Yehio5l7aSuiLAnsc5T0Xq3G/DnJWnc04bQHEL4HBYu3XAKBZSmH5J1JkksN5Jf2jjxn3FmI2NbOg==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       vue: ^3.0.0
@@ -2870,9 +2866,6 @@ packages:
 
   crypt@0.0.2:
     resolution: {integrity: sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==}
-
-  css-line-break@2.1.0:
-    resolution: {integrity: sha512-FHcKFCZcAha3LwfVBhCQbW2nCNbkZXn7KVUJcsT5/P8YmfsVja0FMPJr0B903j/E69HUphKiV9iQArX8SDYA4w==}
 
   css-select@4.3.0:
     resolution: {integrity: sha512-wPpOYtnsVontu2mODhA19JrqWxNsfdatRKd64kmpRbQgh1KtItko5sTnEpPdpSaJszTOhEMlF/RPz28qj4HqhQ==}
@@ -4027,10 +4020,6 @@ packages:
     resolution: {integrity: sha512-YXxSlJBZTP7RS3tWnQw74ooKa6L9b9i9QYXY21eUEvhZ3u9XLfv6OnFsQq6RxkhHygsaUMvYsZRV5rU/OVNZxw==}
     engines: {node: '>=12'}
     hasBin: true
-
-  html2canvas@1.4.1:
-    resolution: {integrity: sha512-fPU6BHNpsyIhr8yyMpTLLxAbkaK8ArIBcmZIRiBLiDhjeqvXolaEmDGmELFuX9I4xDcaKKcJl+TKZLqruBbmWA==}
-    engines: {node: '>=8.0.0'}
 
   htmlparser2@3.10.1:
     resolution: {integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==}
@@ -6284,9 +6273,6 @@ packages:
     resolution: {integrity: sha512-te/NtwBwfiNRLf9Ijqx3T0nlqZiQ2XrrtBvu+cLL8ZRrGkO0NHTug8MYFKyoSrv/sHTaSKfilUkizV6XhxMJ3g==}
     engines: {node: '>=8'}
 
-  text-segmentation@1.0.3:
-    resolution: {integrity: sha512-iOiPUo/BGnZ6+54OsWxZidGCsdU8YbE4PSpdPinp7DeMtUJNJBoJ/ouUSTJjHkh1KntHaltHl/gDs2FC4i5+Nw==}
-
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
@@ -6625,9 +6611,6 @@ packages:
 
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
-
-  utrie@1.0.2:
-    resolution: {integrity: sha512-1MLa5ouZiOmQzUbjbu9VmjLzn1QLXBhwpUa7kdLUQK+KQ5KA9I1vk5U4YHe/X2Ch7PYnJfWuWT+VbuxbGwljhw==}
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
@@ -9313,8 +9296,6 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  base64-arraybuffer@1.0.2: {}
-
   base64-js@1.5.1: {}
 
   base@0.11.2:
@@ -9685,12 +9666,10 @@ snapshots:
     dependencies:
       color-name: 1.1.4
 
-  color-gradient-picker-vue3@3.1.7(vue@3.5.26(typescript@5.9.3)):
+  color-gradient-picker-vue3@3.2.0(vue@3.5.26(typescript@5.9.3)):
     dependencies:
-      html2canvas: 1.4.1
       lodash-es: 4.17.22
       tinycolor2: 1.6.0
-      uuid: 9.0.1
       vue: 3.5.26(typescript@5.9.3)
 
   color-name@1.1.4: {}
@@ -9861,10 +9840,6 @@ snapshots:
       which: 2.0.2
 
   crypt@0.0.2: {}
-
-  css-line-break@2.1.0:
-    dependencies:
-      utrie: 1.0.2
 
   css-select@4.3.0:
     dependencies:
@@ -11332,11 +11307,6 @@ snapshots:
       param-case: 3.0.4
       relateurl: 0.2.7
       terser: 5.44.1
-
-  html2canvas@1.4.1:
-    dependencies:
-      css-line-break: 2.1.0
-      text-segmentation: 1.0.3
 
   htmlparser2@3.10.1:
     dependencies:
@@ -13928,10 +13898,6 @@ snapshots:
 
   text-extensions@2.4.0: {}
 
-  text-segmentation@1.0.3:
-    dependencies:
-      utrie: 1.0.2
-
   through@2.3.8: {}
 
   tiny-async-pool@1.3.0:
@@ -14343,10 +14309,6 @@ snapshots:
       is-generator-function: 1.1.2
       is-typed-array: 1.1.15
       which-typed-array: 1.1.19
-
-  utrie@1.0.2:
-    dependencies:
-      base64-arraybuffer: 1.0.2
 
   uuid@8.3.2: {}
 
